@@ -1,0 +1,33 @@
+@import 'fonts/fonts';
+@import 'reset/reset';
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+// Variables
+$primary-color : #b59371;
+$light-bg: #f9f9f9;
+
+// Base btn
+.base-btn {
+    padding: 1rem 2rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+// Components
+@import 'components/header';
+@import 'components/saleoff';
+@import 'components/coming';
+@import 'components/latest';
+@import 'components/blog';
+@import 'components/footer';
+@import 'components/responsive768';
+@import 'components/responsive480';
